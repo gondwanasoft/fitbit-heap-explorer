@@ -1,0 +1,367 @@
+C:\Program Files\nodejs\node.exe .\fitbit-heap-explorer.js test-data\heap.json
+Found 3119 nodes.
+   Total heap size: 19232 bytes.
+Finding edges:
+   Found 2959 edges (2949 of which are unique).
+Node(s) with repr:
+   node id=279536475 type=Object size=24 from=1 to=2 repr="Number"
+   node id=279545113 type=String size=24 from=3 to=0 repr="./app/index.js"
+   node id=279545241 type=String size=24 from=0 to=0 repr="use strict"
+   node id=279545273 type=String size=32 from=1 to=0 repr="myExportedStringValue"
+   node id=279545305 type=String size=32 from=1 to=0 repr="myStringVariableValue"
+   node id=279545513 type=String size=24 from=1 to=0 repr="myStringField"
+   node id=279545537 type=String size=32 from=1 to=0 repr="myStringFieldValue"
+   node id=279545569 type=String size=24 from=1 to=0 repr="myNumberField"
+   node id=279545593 type=String size=24 from=1 to=0 repr="myLocalVariable"
+   node id=279545761 type=String size=32 from=1 to=0 repr="mySumArrayFunction"
+   node id=279545825 type=String size=32 from=0 to=0 repr="myLocalVariable squared="
+   node id=279545865 type=String size=32 from=0 to=0 repr="my string literal"
+   node id=279545897 type=String size=40 from=0 to=0 repr="myExportedStringVariable = "
+   node id=279545937 type=String size=32 from=1 to=0 repr="myExportedStringVariable"
+   node id=279545977 type=String size=32 from=0 to=0 repr="myNumberVariable = "
+   node id=279546009 type=String size=24 from=1 to=0 repr="myNumberVariable"
+   node id=279546049 type=String size=24 from=1 to=0 repr="myArrayVariable"
+   node id=279546081 type=String size=32 from=0 to=0 repr="myNumberSumVariable is "
+   node id=279546113 type=String size=24 from=0 to=0 repr="abcdefghij"
+   node id=279546185 type=String size=32 from=0 to=0 repr="myStringVariable = "
+   node id=279546217 type=String size=24 from=1 to=0 repr="myStringVariable"
+   node id=279546521 type=String size=24 from=0 to=0 repr="myObject = "
+   node id=279546545 type=String size=16 from=1 to=0 repr="myObject"
+   node id=279546561 type=String size=24 from=1 to=0 repr="myOuterFunction"
+   node id=279546585 type=String size=32 from=0 to=0 repr="my memory used/total: "
+   node id=279546785 type=String size=32 from=0 to=0 repr="myInnerFunction1 says "
+   node id=279546817 type=String size=24 from=0 to=0 repr="mySharedVariable"
+   node id=279546841 type=String size=32 from=0 to=0 repr="myInnerFunction2 says "
+   (1968 nodes found.)
+Node(s) with repr in array:
+   node id=279545513 type=String size=24 from=1 to=0 repr="myStringField"
+   node id=279545569 type=String size=24 from=1 to=0 repr="myNumberField"
+   node id=279545593 type=String size=24 from=1 to=0 repr="myLocalVariable"
+   node id=279545761 type=String size=32 from=1 to=0 repr="mySumArrayFunction"
+   node id=279545937 type=String size=32 from=1 to=0 repr="myExportedStringVariable"
+   node id=279546009 type=String size=24 from=1 to=0 repr="myNumberVariable"
+   node id=279546049 type=String size=24 from=1 to=0 repr="myArrayVariable"
+   node id=279546217 type=String size=24 from=1 to=0 repr="myStringVariable"
+   node id=279546545 type=String size=16 from=1 to=0 repr="myObject"
+   node id=279546561 type=String size=24 from=1 to=0 repr="myOuterFunction"
+   node id=279546817 type=String size=24 from=0 to=0 repr="mySharedVariable"
+   (20 nodes found.)
+Node(s) with position:
+   node id=279545795 type=Closure size=16 from=1 to=3 position={"line":29,"column":0,"source":"app/index.js"}
+   node id=279546139 type=Closure size=16 from=1 to=3 position={"line":35,"column":0,"source":"app/index.js"}
+   node id=279553171 type=Closure size=16 from=0 to=3 position={"line":17,"column":2,"source":"app/index.js"}
+   (3 nodes found.)
+Node(s) with type==="Closure":
+   node id=279545795 type=Closure size=16 from=1 to=3 position={"line":29,"column":0,"source":"app/index.js"}
+   node id=279546139 type=Closure size=16 from=1 to=3 position={"line":35,"column":0,"source":"app/index.js"}
+   node id=279553171 type=Closure size=16 from=0 to=3 position={"line":17,"column":2,"source":"app/index.js"}
+   (3 nodes found.)
+Node(s) with type==="Code":
+   node id=279545379 type=Code size=88 from=1 to=2
+   node id=279545619 type=Code size=96 from=1 to=4
+   node id=279546619 type=Code size=64 from=1 to=1
+   node id=279546683 type=Code size=64 from=1 to=1
+   node id=279546875 type=Code size=216 from=1 to=2
+   (5 nodes found.)
+Node(s) with type==="Sourcemap":
+   node id=279545147 type=Sourcemap size=56 from=1 to=0
+   node id=279545203 type=Sourcemap size=32 from=1 to=0
+   node id=279545235 type=Sourcemap size=8 from=1 to=0
+   node id=279545467 type=Sourcemap size=40 from=1 to=0
+   node id=279545507 type=Sourcemap size=8 from=1 to=0
+   (5 nodes found.)
+Edges with name:
+   (457 edges found.)
+Edges with name in array:
+   type=property from=279547539 to=279545537 name=myStringField
+   type=property from=279547443 to=279547435 name=js
+   type=property from=279547491 to=279547427 name=memory
+   type=propertyget from=279547315 to=279547299 name=used
+   type=propertyget from=279547251 to=279547283 name=total
+   type=propertyget from=279547187 to=279547171 name=used
+   type=propertyget from=279547123 to=279547155 name=total
+   type=propertyget from=279537115 to=279537099 name=length
+   type=property from=279547571 to=279547555 name=Array
+   type=property from=279545811 to=279546139 name=myOuterFunction
+   type=property from=279545811 to=279545795 name=mySumArrayFunction
+   type=property from=279545747 to=279547611 name=myArrayVariable
+   type=property from=279545731 to=279547523 name=myObject
+   type=property from=279545731 to=279545305 name=myStringVariable
+   type=property from=279545715 to=279545273 name=myExportedStringVariable
+   type=property from=279536459 to=279536563 name=setInterval
+   (16 edges found.)
+Root node(s):
+   node id=279536147 type=Hidden size=8 from=0 to=9
+   node id=279536531 type=Object size=16 from=0 to=1
+   node id=279545241 type=String size=24 from=0 to=0 repr="use strict"
+   node id=279545267 type=Hidden size=8 from=0 to=0
+   node id=279545339 type=Hidden size=8 from=0 to=0
+   node id=279545347 type=Hidden size=8 from=0 to=0
+   node id=279545371 type=Hidden size=8 from=0 to=0
+   node id=279545825 type=String size=32 from=0 to=0 repr="myLocalVariable squared="
+   node id=279545859 type=Hidden size=8 from=0 to=0
+   node id=279545865 type=String size=32 from=0 to=0 repr="my string literal"
+   node id=279545897 type=String size=40 from=0 to=0 repr="myExportedStringVariable = "
+   node id=279545971 type=Hidden size=8 from=0 to=0
+   node id=279545977 type=String size=32 from=0 to=0 repr="myNumberVariable = "
+   node id=279546035 type=Hidden size=8 from=0 to=0
+   node id=279546043 type=Hidden size=8 from=0 to=0
+   node id=279546075 type=Hidden size=8 from=0 to=0
+   node id=279546081 type=String size=32 from=0 to=0 repr="myNumberSumVariable is "
+   node id=279546113 type=String size=24 from=0 to=0 repr="abcdefghij"
+   node id=279546185 type=String size=32 from=0 to=0 repr="myStringVariable = "
+   node id=279546243 type=Hidden size=8 from=0 to=0
+   node id=279546521 type=String size=24 from=0 to=0 repr="myObject = "
+   node id=279546585 type=String size=32 from=0 to=0 repr="my memory used/total: "
+   node id=279546785 type=String size=32 from=0 to=0 repr="myInnerFunction1 says "
+   node id=279546817 type=String size=24 from=0 to=0 repr="mySharedVariable"
+   node id=279546841 type=String size=32 from=0 to=0 repr="myInnerFunction2 says "
+   node id=279548027 type=Hidden size=8 from=0 to=1
+   node id=279553171 type=Closure size=16 from=0 to=3 position={"line":17,"column":2,"source":"app/index.js"}
+   (795 nodes found.)
+Leaf node(s):
+   node id=279545113 type=String size=24 from=3 to=0 repr="./app/index.js"
+   node id=279545147 type=Sourcemap size=56 from=1 to=0
+   node id=279545203 type=Sourcemap size=32 from=1 to=0
+   node id=279545235 type=Sourcemap size=8 from=1 to=0
+   node id=279545241 type=String size=24 from=0 to=0 repr="use strict"
+   node id=279545267 type=Hidden size=8 from=0 to=0
+   node id=279545273 type=String size=32 from=1 to=0 repr="myExportedStringValue"
+   node id=279545305 type=String size=32 from=1 to=0 repr="myStringVariableValue"
+   node id=279545339 type=Hidden size=8 from=0 to=0
+   node id=279545347 type=Hidden size=8 from=0 to=0
+   node id=279545371 type=Hidden size=8 from=0 to=0
+   node id=279545467 type=Sourcemap size=40 from=1 to=0
+   node id=279545507 type=Sourcemap size=8 from=1 to=0
+   node id=279545513 type=String size=24 from=1 to=0 repr="myStringField"
+   node id=279545537 type=String size=32 from=1 to=0 repr="myStringFieldValue"
+   node id=279545569 type=String size=24 from=1 to=0 repr="myNumberField"
+   node id=279545593 type=String size=24 from=1 to=0 repr="myLocalVariable"
+   node id=279545761 type=String size=32 from=1 to=0 repr="mySumArrayFunction"
+   node id=279545825 type=String size=32 from=0 to=0 repr="myLocalVariable squared="
+   node id=279545859 type=Hidden size=8 from=0 to=0
+   node id=279545865 type=String size=32 from=0 to=0 repr="my string literal"
+   node id=279545897 type=String size=40 from=0 to=0 repr="myExportedStringVariable = "
+   node id=279545937 type=String size=32 from=1 to=0 repr="myExportedStringVariable"
+   node id=279545971 type=Hidden size=8 from=0 to=0
+   node id=279545977 type=String size=32 from=0 to=0 repr="myNumberVariable = "
+   node id=279546009 type=String size=24 from=1 to=0 repr="myNumberVariable"
+   node id=279546035 type=Hidden size=8 from=0 to=0
+   node id=279546043 type=Hidden size=8 from=0 to=0
+   node id=279546049 type=String size=24 from=1 to=0 repr="myArrayVariable"
+   node id=279546075 type=Hidden size=8 from=0 to=0
+   node id=279546081 type=String size=32 from=0 to=0 repr="myNumberSumVariable is "
+   node id=279546113 type=String size=24 from=0 to=0 repr="abcdefghij"
+   node id=279546185 type=String size=32 from=0 to=0 repr="myStringVariable = "
+   node id=279546217 type=String size=24 from=1 to=0 repr="myStringVariable"
+   node id=279546243 type=Hidden size=8 from=0 to=0
+   node id=279546521 type=String size=24 from=0 to=0 repr="myObject = "
+   node id=279546545 type=String size=16 from=1 to=0 repr="myObject"
+   node id=279546561 type=String size=24 from=1 to=0 repr="myOuterFunction"
+   node id=279546585 type=String size=32 from=0 to=0 repr="my memory used/total: "
+   node id=279546785 type=String size=32 from=0 to=0 repr="myInnerFunction1 says "
+   node id=279546817 type=String size=24 from=0 to=0 repr="mySharedVariable"
+   node id=279546841 type=String size=32 from=0 to=0 repr="myInnerFunction2 says "
+   (1983 nodes found.)
+Unlinked node(s):
+   node id=279545241 type=String size=24 from=0 to=0 repr="use strict"
+   node id=279545267 type=Hidden size=8 from=0 to=0
+   node id=279545339 type=Hidden size=8 from=0 to=0
+   node id=279545347 type=Hidden size=8 from=0 to=0
+   node id=279545371 type=Hidden size=8 from=0 to=0
+   node id=279545825 type=String size=32 from=0 to=0 repr="myLocalVariable squared="
+   node id=279545859 type=Hidden size=8 from=0 to=0
+   node id=279545865 type=String size=32 from=0 to=0 repr="my string literal"
+   node id=279545897 type=String size=40 from=0 to=0 repr="myExportedStringVariable = "
+   node id=279545971 type=Hidden size=8 from=0 to=0
+   node id=279545977 type=String size=32 from=0 to=0 repr="myNumberVariable = "
+   node id=279546035 type=Hidden size=8 from=0 to=0
+   node id=279546043 type=Hidden size=8 from=0 to=0
+   node id=279546075 type=Hidden size=8 from=0 to=0
+   node id=279546081 type=String size=32 from=0 to=0 repr="myNumberSumVariable is "
+   node id=279546113 type=String size=24 from=0 to=0 repr="abcdefghij"
+   node id=279546185 type=String size=32 from=0 to=0 repr="myStringVariable = "
+   node id=279546243 type=Hidden size=8 from=0 to=0
+   node id=279546521 type=String size=24 from=0 to=0 repr="myObject = "
+   node id=279546585 type=String size=32 from=0 to=0 repr="my memory used/total: "
+   node id=279546785 type=String size=32 from=0 to=0 repr="myInnerFunction1 says "
+   node id=279546817 type=String size=24 from=0 to=0 repr="mySharedVariable"
+   node id=279546841 type=String size=32 from=0 to=0 repr="myInnerFunction2 says "
+   (791 nodes found.)
+Node(s) with at least 7 edges to other nodes:
+   node id=279536115 type=Object size=24 from=1 to=12
+   node id=279536147 type=Hidden size=8 from=0 to=9
+   node id=279537131 type=Hidden size=8 from=1 to=17
+   node id=279538123 type=Hidden size=8 from=1 to=7
+   node id=279538595 type=Hidden size=8 from=3 to=11
+   node id=279540435 type=Hidden size=8 from=2 to=9
+   node id=279540507 type=Hidden size=8 from=1 to=8
+   node id=279540635 type=Hidden size=8 from=2 to=7
+   node id=279547611 type=Array size=16 from=1 to=501
+   (9 nodes found.)
+Node(s) with at least 7 edges from other nodes:
+   node id=279536099 type=Object size=16 from=24 to=1
+   node id=279536163 type=Object size=16 from=367 to=1
+   node id=279539315 type=Hidden size=8 from=13 to=2
+   (10 nodes found.)
+Node(s) with own size above 23 bytes:
+   node id=279536115 type=Object size=24 from=1 to=12
+   node id=279536475 type=Object size=24 from=1 to=2 repr="Number"
+   node id=279545113 type=String size=24 from=3 to=0 repr="./app/index.js"
+   node id=279545147 type=Sourcemap size=56 from=1 to=0
+   node id=279545203 type=Sourcemap size=32 from=1 to=0
+   node id=279545241 type=String size=24 from=0 to=0 repr="use strict"
+   node id=279545273 type=String size=32 from=1 to=0 repr="myExportedStringValue"
+   node id=279545305 type=String size=32 from=1 to=0 repr="myStringVariableValue"
+   node id=279545379 type=Code size=88 from=1 to=2
+   node id=279545467 type=Sourcemap size=40 from=1 to=0
+   node id=279545513 type=String size=24 from=1 to=0 repr="myStringField"
+   node id=279545537 type=String size=32 from=1 to=0 repr="myStringFieldValue"
+   node id=279545569 type=String size=24 from=1 to=0 repr="myNumberField"
+   node id=279545593 type=String size=24 from=1 to=0 repr="myLocalVariable"
+   node id=279545619 type=Code size=96 from=1 to=4
+   node id=279545761 type=String size=32 from=1 to=0 repr="mySumArrayFunction"
+   node id=279545825 type=String size=32 from=0 to=0 repr="myLocalVariable squared="
+   node id=279545865 type=String size=32 from=0 to=0 repr="my string literal"
+   node id=279545897 type=String size=40 from=0 to=0 repr="myExportedStringVariable = "
+   node id=279545937 type=String size=32 from=1 to=0 repr="myExportedStringVariable"
+   node id=279545977 type=String size=32 from=0 to=0 repr="myNumberVariable = "
+   node id=279546009 type=String size=24 from=1 to=0 repr="myNumberVariable"
+   node id=279546049 type=String size=24 from=1 to=0 repr="myArrayVariable"
+   node id=279546081 type=String size=32 from=0 to=0 repr="myNumberSumVariable is "
+   node id=279546113 type=String size=24 from=0 to=0 repr="abcdefghij"
+   node id=279546185 type=String size=32 from=0 to=0 repr="myStringVariable = "
+   node id=279546217 type=String size=24 from=1 to=0 repr="myStringVariable"
+   node id=279546521 type=String size=24 from=0 to=0 repr="myObject = "
+   node id=279546561 type=String size=24 from=1 to=0 repr="myOuterFunction"
+   node id=279546585 type=String size=32 from=0 to=0 repr="my memory used/total: "
+   node id=279546619 type=Code size=64 from=1 to=1
+   node id=279546683 type=Code size=64 from=1 to=1
+   node id=279546785 type=String size=32 from=0 to=0 repr="myInnerFunction1 says "
+   node id=279546817 type=String size=24 from=0 to=0 repr="mySharedVariable"
+   node id=279546841 type=String size=32 from=0 to=0 repr="myInnerFunction2 says "
+   node id=279546875 type=Code size=216 from=1 to=2
+   node id=279547587 type=Object size=24 from=1 to=1
+   (37 nodes found.)
+Tracing node 279545795 upwards (ie, through 'from' edges):
+   node id=279545795 type=Closure size=16 from=1 to=3 position={"line":29,"column":0,"source":"app/index.js"}
+      node id=279545811 type=Hidden size=16 from=1 to=4
+         node id=279536115 type=Object size=24 from=1 to=12
+            node id=279536139 type=Hidden size=8 from=4 to=1
+               node id=279553171 type=Closure size=16 from=0 to=3 position={"line":17,"column":2,"source":"app/index.js"}
+               node id=279548027 type=Hidden size=8 from=0 to=1
+               node id=279546139 type=Closure size=16 from=1 to=3 position={"line":35,"column":0,"source":"app/index.js"}
+                  node id=279545811 type=Hidden size=16 from=1 to=4
+                  Already visited this node - not going there again
+               node id=279545795 type=Closure size=16 from=1 to=3 position={"line":29,"column":0,"source":"app/index.js"}
+               Already visited this node - not going there again
+   Finished.
+Tracing node 279545731 downwards (ie, through 'to' edges):
+   node id=279545731 type=Hidden size=16 from=1 to=4
+      node id=279546545 type=String size=16 from=1 to=0 repr="myObject"
+      node id=279547523 type=Hidden size=8 from=1 to=2
+         node id=279536099 type=Object size=16 from=24 to=1
+            node id=279536227 type=Hidden size=16 from=1 to=2
+               node id=6221 type=String size=0 from=41 to=0 repr="constructor"
+               node id=279536211 type=Object size=16 from=1 to=1
+                  node id=279536163 type=Object size=16 from=367 to=1
+                     node id=279536099 type=Object size=16 from=24 to=1
+                     Already visited this node - not going there again
+         node id=279547539 type=Hidden size=16 from=1 to=3
+            node id=279545569 type=String size=24 from=1 to=0 repr="myNumberField"
+            node id=279545513 type=String size=24 from=1 to=0 repr="myStringField"
+            node id=279545537 type=String size=32 from=1 to=0 repr="myStringFieldValue"
+      node id=279546217 type=String size=24 from=1 to=0 repr="myStringVariable"
+      node id=279545305 type=String size=32 from=1 to=0 repr="myStringVariableValue"
+   Finished.
+Tracing node 279536115 down through retained children:
+   Starting node: node id=279536115 type=Object size=24 from=1 to=12
+      Conclusion: 279536115 has child node id=279547571 type=Hidden size=16 from=1 to=2 RETAINED
+      Conclusion: 279536115 has child node id=279545811 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536115 has child node id=279545747 type=Hidden size=16 from=1 to=3 RETAINED
+      Conclusion: 279536115 has child node id=279545731 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536115 has child node id=279545715 type=Hidden size=16 from=1 to=3 RETAINED
+      Conclusion: 279536115 has child node id=279545027 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536115 has child node id=279536811 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536115 has child node id=279536643 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536115 has child node id=279536595 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536115 has child node id=279536459 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536115 has child node id=279536195 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279547571 has child node id=279547555 type=Object size=16 from=1 to=1 RETAINED
+      Conclusion: 279545811 has child node id=279546561 type=String size=24 from=1 to=0 repr="myOuterFunction" RETAINED
+      Conclusion: 279545811 has child node id=279546139 type=Closure size=16 from=1 to=3 position={"line":35,"column":0,"source":"app/index.js"} RETAINED
+      Conclusion: 279545811 has child node id=279545761 type=String size=32 from=1 to=0 repr="mySumArrayFunction" RETAINED
+      Conclusion: 279545811 has child node id=279545795 type=Closure size=16 from=1 to=3 position={"line":29,"column":0,"source":"app/index.js"} RETAINED
+      Conclusion: 279545747 has child node id=279545593 type=String size=24 from=1 to=0 repr="myLocalVariable" RETAINED
+      Conclusion: 279545747 has child node id=279546049 type=String size=24 from=1 to=0 repr="myArrayVariable" RETAINED
+      Conclusion: 279545747 has child node id=279547611 type=Array size=16 from=1 to=501 RETAINED
+      Conclusion: 279545731 has child node id=279546545 type=String size=16 from=1 to=0 repr="myObject" RETAINED
+      Conclusion: 279545731 has child node id=279547523 type=Hidden size=8 from=1 to=2 RETAINED
+      Conclusion: 279545731 has child node id=279546217 type=String size=24 from=1 to=0 repr="myStringVariable" RETAINED
+      Conclusion: 279545731 has child node id=279545305 type=String size=32 from=1 to=0 repr="myStringVariableValue" RETAINED
+      Conclusion: 279545715 has child node id=279546009 type=String size=24 from=1 to=0 repr="myNumberVariable" RETAINED
+      Conclusion: 279545715 has child node id=279545937 type=String size=32 from=1 to=0 repr="myExportedStringVariable" RETAINED
+      Conclusion: 279545715 has child node id=279545273 type=String size=32 from=1 to=0 repr="myExportedStringValue" RETAINED
+      Conclusion: 279545027 has child node id=279547419 type=Hidden size=8 from=1 to=2 RETAINED
+      Conclusion: 279545027 has child node id=279545011 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536811 has child node id=279536827 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536811 has child node id=279536795 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536643 has child node id=279536659 type=Hidden size=8 from=1 to=4 RETAINED
+      Conclusion: 279536643 has child node id=279536627 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536595 has child node id=279536611 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536595 has child node id=279536579 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536459 has child node id=279536563 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536459 has child node id=279536443 type=Object size=16 from=1 to=2 RETAINED
+      Conclusion: 279546139 has child node id=279545619 type=Code size=96 from=1 to=4 RETAINED
+      Conclusion: 279545795 has child node id=279545379 type=Code size=88 from=1 to=2 RETAINED
+      Conclusion: 279547611 has child node id=279547587 type=Object size=24 from=1 to=1 RETAINED
+      Conclusion: 279547611 has child node id=279553139 type=Hidden size=16 from=1 to=2 RETAINED
+      Conclusion: 279547611 has child node id=279553123 type=Hidden size=16 from=1 to=2 RETAINED
+      Conclusion: 279547611 has child node id=279553107 type=Hidden size=16 from=1 to=2 RETAINED
+      ... (lots more lines like this, which probably correspond to the elements in the Array(1000)
+      Conclusion: 279536659 has child node id=279536683 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536443 has child node id=279536499 type=Hidden size=16 from=1 to=2 RETAINED
+      Conclusion: 279545619 has child node id=279545467 type=Sourcemap size=40 from=1 to=0 RETAINED
+      Conclusion: 279545619 has child node id=279546619 type=Code size=64 from=1 to=1 RETAINED
+      Conclusion: 279545619 has child node id=279546683 type=Code size=64 from=1 to=1 RETAINED
+      Conclusion: 279545379 has child node id=279545203 type=Sourcemap size=32 from=1 to=0 RETAINED
+      Conclusion: 279547539 has child node id=279545569 type=String size=24 from=1 to=0 repr="myNumberField" RETAINED
+      Conclusion: 279547539 has child node id=279545513 type=String size=24 from=1 to=0 repr="myStringField" RETAINED
+      Conclusion: 279547539 has child node id=279545537 type=String size=32 from=1 to=0 repr="myStringFieldValue" RETAINED
+      Conclusion: 279547491 has child node id=279547507 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279547491 has child node id=279547427 type=Hidden size=8 from=1 to=3 RETAINED
+      Conclusion: 279536779 has child node id=279536763 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536731 has child node id=279536747 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536731 has child node id=279536715 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536683 has child node id=279536699 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536683 has child node id=279536667 type=Native size=16 from=1 to=1 RETAINED
+      Conclusion: 279536499 has child node id=279536475 type=Object size=24 from=1 to=2 repr="Number" RETAINED
+      Conclusion: 279546619 has child node id=279545235 type=Sourcemap size=8 from=1 to=0 RETAINED
+      Conclusion: 279546683 has child node id=279545507 type=Sourcemap size=8 from=1 to=0 RETAINED
+      Conclusion: 279547427 has child node id=279547475 type=Hidden size=16 from=1 to=2 RETAINED
+      Conclusion: 279547427 has child node id=279547443 type=Hidden size=16 from=1 to=4 RETAINED
+      Conclusion: 279536475 has child node id=279536547 type=Hidden size=16 from=1 to=2 RETAINED
+      Conclusion: 279547475 has child node id=279547467 type=Hidden size=8 from=1 to=1 RETAINED
+      Conclusion: 279547443 has child node id=279547459 type=Hidden size=8 from=1 to=1 RETAINED
+      Conclusion: 279547443 has child node id=279547435 type=Hidden size=8 from=1 to=1 RETAINED
+      Conclusion: 279536547 has child node id=279536515 type=Native size=16 from=1 to=1 RETAINED
+   Finished.
+      Nodes retained: 1594
+      Nodes with non-zero size retained: 570
+      Memory retained: 9496 bytes
+      Maximum node depth: 6
+      Maximum processing queue length: 1022
+Finding nodes reachable via 'from' edges of both 279546217 and 279545305:
+   node id=279545731 type=Hidden size=16 from=1 to=4
+   node id=279536115 type=Object size=24 from=1 to=12
+   (2 node(s) found.)
+Finding nodes reachable via 'to' edges of both 279546217 and 279546217:
+   node id=279546217 type=String size=24 from=1 to=0 repr="myStringVariable"
+   (1 node(s) found.)
+Finding paths between 279546217 and 279545305:
+   Path found: path = 279546217 279545731 279545305
+
+   Finished.
+      1594 path(s) searched.
+      1 path(s) found between specified nodes.
+Finished.
