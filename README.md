@@ -44,7 +44,9 @@ All of the parameters and output are in terms of node numbers, rather than sourc
 
 It is not yet clear how to relate node numbers to source code entities. For heap analysis to be useful, this needs to be resolved.
 
-It should then be possible to develop or use a visualisation program to explore data usage, leading to conclusions about how to reduce it. Strategies include:
+![Miracle Required](miracle.jpg)
+
+It should then be possible to develop or use a visualisation program to explore data usage, leading to conclusions about how to reduce it. Strategies would include:
 
 * avoiding the retention of node chains that are no longer required (*ie*, memory leaks)
 * reducing the memory size consumed by large but essential data
